@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="tp1-frontend/styles/styles.css" />
+    <title>Conf Bs As</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="brand">
+        <img src="tp1-frontend/images/codoacodo.png" alt="" class="img-fluid logoImg" />
+        <a class="navbar-brand" href="#">Conf Bs As</a>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">La conferencia</a>
+          <a class="nav-item nav-link" href="#">Los oradores</a>
+          <a class="nav-item nav-link" href="#">El lugar y la fecha</a>
+          <a class="nav-item nav-link" href="#">Conviértete en orador</a>
+          <a class="nav-item nav-link" href="#"><span class="tickets">Compar tickets</span></a>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div>
+          <div class="carousel-caption">
+            <h1>Conf Bs As</h1>
+            <p>
+              Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos
+              que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los ordadores de
+              primer nivel que tenemos para ti. Te esperamos!
+            </p>
+            <a class="btn btn-outline-light btn-lg" href="#!" role="button">Quiero ser orador</a>
+            <a class="btn btn-success" href="" role="button">Comprar tickets</a>
+          </div>
+          <div class="carousel-item active" style="background-color: rgba(0, 0, 0, 0.6)">
+            <img class="d-block w-100 mask" src="tp1-frontend/images/ba1.jpg" alt="First slide" style="background-color: rgba(0, 0, 0, 0.6)" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 mask" src="tp1-frontend/images/ba2.jpg" alt="Second slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 mask" src="tp1-frontend/images/ba3.jpg" alt="Third slide" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="container">
+        <div class="d-flex row">
+          <div class="card col-12 col-sm-4">
+            <img class="card-img-top" src="tp1-frontend/images/steve.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <div class="row">
+                <span class="badge badge-warning">JavaScript</span>
+                <span class="badge badge-info">React</span>
+              </div>
+              <h5 class="card-title">Steve Jobs</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nobis, incidunt aperiam vel aut illum numquam, tempore quas ipsam
+                fugiat soluta nisi? Sed natus et qui alias eligendi quasi architecto?
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-4">
+            <img class="card-img-top" src="tp1-frontend/images/bill.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <div class="row">
+                <span class="badge badge-warning">JavaScript</span>
+                <span class="badge badge-info">React</span>
+              </div>
+              <h5 class="card-title">Bill Gates</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit neque, harum quod, similique, placeat sapiente accusantium quisquam eos
+                id quos illo. Laboriosam, in voluptas rerum qui aliquid porro ipsa.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-4">
+            <img class="card-img-top" src="tp1-frontend/images/ada.jpeg" alt="Card image cap" />
+            <div class="card-body">
+              <div class="row">
+                <span class="badge badge-secondary">Negocios</span>
+                <span class="badge badge-danger">Startups</span>
+              </div>
+              <h5 class="card-title">Ada Lovelace</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum tempora unde molestiae odio aspernatur? Veritatis tempora nulla, sunt
+                sapiente voluptatibus rerum alias itaque dolorum asperiores.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <img src="" alt="" />
+    </section>
+    <section>
+      <form>
+        <div class="row">
+          <div class="col-6">
+            <input type="text" class="form-control" placeholder="Nombre" />
+          </div>
+          <div class="col-6">
+            <input type="text" class="form-control" placeholder="Apellido" />
+          </div>
+        </div>
+        <div class="form-group col-12">
+          <label for="exampleFormControlTextarea1"></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Sobre qué quieres hablar?" rows="3"></textarea>
+          <p>Recuerda incluir un título para tu charla</p>
+        </div>
+        <input type="submit" class="btn bg-success rounded text-light" />
+      </form>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
