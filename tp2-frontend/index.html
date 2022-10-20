@@ -11,33 +11,45 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="brand">
-        <img src="images/codoacodo.png" alt="" class="img-fluid logoImg" />
-        <a class="navbar-brand" href="#">Conf Bs As</a>
+        <a class="navbar-brand" href="index.html">
+          <img src="images/codoacodo.png" alt="" class="img-fluid logoImg" />
+          Conf Bs As</a
+        >
       </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">La conferencia</a>
-          <a class="nav-item nav-link" href="#">Los oradores</a>
-          <a class="nav-item nav-link" href="#">El lugar y la fecha</a>
-          <a class="nav-item nav-link" href="#">Conviértete en orador</a>
-          <a class="nav-item nav-link" href="#"><span class="tickets">Compar tickets</span></a>
+          <a class="nav-item nav-link" href="#conf">La conferencia</a>
+          <a class="nav-item nav-link" href="#oradores">Los oradores</a>
+          <a class="nav-item nav-link" href="#lugar">El lugar y la fecha</a>
+          <a class="nav-item nav-link" href="#form">Conviértete en orador</a>
+          <a class="nav-item nav-link" href="./pages/tickets.html">
+            <span class="tickets"> Comprar tickets </span>
+          </a>
         </div>
       </div>
     </nav>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div>
-          <div class="carousel-caption">
+          <div class="carousel-caption" id="conf">
             <h1>Conf Bs As</h1>
             <p>
-              Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a
-              conocer a miembros del evento, a otros estudiantes de Codo a Codo y los ordadores de primer nivel que tenemos para ti. Te esperamos!
+              Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos
+              que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los ordadores de
+              primer nivel que tenemos para ti. Te esperamos!
             </p>
-            <a class="btn btn-outline-light btn-lg" href="#!" role="button">Quiero ser orador</a>
-            <a class="btn btn-success" href="" role="button">Comprar tickets</a>
+            <a class="btn btn-outline-light btn-lg" href="#form" role="button">Quiero ser orador</a>
+            <a class="btn btn-success" href="./pages/tickets.html" role="button">Comprar tickets</a>
           </div>
           <div class="carousel-item active" style="background-color: rgba(0, 0, 0, 0.6)">
             <img class="d-block w-100 mask" src="images/ba1.jpg" alt="First slide" style="background-color: rgba(0, 0, 0, 0.6)" />
@@ -54,7 +66,7 @@
     <section>
       <div class="container">
         <div class="d-flex row m-2">
-          <div class="col-12 d-flex justify-content-center">
+          <div class="col-12 d-flex justify-content-center" id="oradores">
             <h2>Conoce a los ORADORES</h2>
           </div>
           <div class="card col-12 col-sm-4">
@@ -66,8 +78,8 @@
               </div>
               <h5 class="card-title">Steve Jobs</h5>
               <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nobis, incidunt aperiam vel aut illum numquam, tempore quas ipsam fugiat soluta nisi? Sed natus et qui alias eligendi
-                quasi architecto?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nobis, incidunt aperiam vel aut illum numquam, tempore quas ipsam
+                fugiat soluta nisi? Sed natus et qui alias eligendi quasi architecto?
               </p>
             </div>
           </div>
@@ -80,8 +92,8 @@
               </div>
               <h5 class="card-title">Bill Gates</h5>
               <p class="card-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit neque, harum quod, similique, placeat sapiente accusantium quisquam eos id quos illo. Laboriosam, in voluptas rerum qui
-                aliquid porro ipsa.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit neque, harum quod, similique, placeat sapiente accusantium quisquam eos
+                id quos illo. Laboriosam, in voluptas rerum qui aliquid porro ipsa.
               </p>
             </div>
           </div>
@@ -94,8 +106,8 @@
               </div>
               <h5 class="card-title">Ada Lovelace</h5>
               <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum tempora unde molestiae odio aspernatur? Veritatis tempora nulla, sunt sapiente voluptatibus rerum alias itaque dolorum
-                asperiores.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum tempora unde molestiae odio aspernatur? Veritatis tempora nulla, sunt
+                sapiente voluptatibus rerum alias itaque dolorum asperiores.
               </p>
             </div>
           </div>
@@ -107,12 +119,13 @@
         <div class="col-lg-6">
           <img src="images/honolulu.jpg" alt="" class="img-fluid" />
         </div>
-        <div class="col-lg-6 bg-dark">
+        <div class="col-lg-6 bg-dark" id="lugar">
           <h1 class="fw-bold text-light">Bs As - Octubre</h1>
           <p class="lead text-light">
-            Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el
-            nombre Honolulu se refiere al area urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la ciudad
-            (aproximadamente 600 km2 de superficie).
+            Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las
+            principales ciudades estadounidenses. Aunque el nombre Honolulu se refiere al area urbana en la costa sureste de la isla de Oahu, la
+            ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de
+            superficie).
           </p>
           <div>
             <button type="button" class="btn btn-outline-secondary btn-lg px-4 text-light">Conoce mas</button>
@@ -121,7 +134,7 @@
       </div>
     </section>
     <section>
-      <form class="container">
+      <form class="container" id="form">
         <div class="row m-3">
           <div class="col-6">
             <input type="text" class="form-control" placeholder="Nombre" />
